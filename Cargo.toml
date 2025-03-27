@@ -31,8 +31,8 @@ getopts = { version = "0.2.21", optional = true }
 itertools = { version = "0.10.1", optional = true }
 petgraph = { version = "0.6.0", optional = true }
 linked-hash-map = { version = "0.5.6", features = ["serde_impl"], optional = true }
-rand = "0.8.4"
-rand_chacha = { version = "0.3.1" , optional = true}
+rand = "0.9.0"
+rand_chacha = { version = "0.9.0" , optional = true}
 serde = "1.0.130"
 serde_derive = "1.0.130"
 serde_yaml = { version = "0.8.20", optional = true }
